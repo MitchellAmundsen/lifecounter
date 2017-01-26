@@ -21,44 +21,45 @@
 
         <Button
             android:text="-5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minus5button1"
             android:tag="player1"
             android:onClick="onClickSub5"/>
 
         <Button
             android:text="-"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minusbutton1"
             android:tag="player1"
             android:onClick="onClickSub1"/>
 
         <TextView
             android:text="Linear1"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/player1"
-            android:layout_weight="0.2" />
+            android:layout_weight="1.5"
+            android:gravity="center"/>
 
         <Button
             android:text="+"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/addbutton1"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player1"
             android:onClick="onClickAdd1"/>
 
         <Button
             android:text="+5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/add5button1"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player1"
             android:onClick="onClickAdd5"/>
     </LinearLayout>
@@ -73,44 +74,45 @@
 
         <Button
             android:text="-5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minus5button2"
             android:tag="player2"
             android:onClick="onClickSub5"/>
 
         <Button
             android:text="-"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minusbutton2"
             android:tag="player2"
             android:onClick="onClickSub1"/>
 
         <TextView
             android:text="Linear2"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/player2"
-            android:layout_weight="0.2" />
+            android:layout_weight="1.5"
+            android:gravity="center"/>
 
         <Button
             android:text="+"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/addbutton2"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player2"
             android:onClick="onClickAdd1"/>
 
         <Button
             android:text="+5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/add5button2"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player2"
             android:onClick="onClickAdd5"/>
     </LinearLayout>
@@ -125,44 +127,45 @@
 
         <Button
             android:text="-5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minus5button3"
             android:tag="player3"
             android:onClick="onClickSub5"/>
 
         <Button
             android:text="-"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minusbutton3"
             android:tag="player3"
             android:onClick="onClickSub1"/>
 
         <TextView
             android:text="Linear3"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/player3"
-            android:layout_weight="0.2" />
+            android:layout_weight="1.5"
+            android:gravity="center"/>
 
         <Button
             android:text="+"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/addbutton3"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player3"
             android:onClick="onClickAdd1"/>
 
         <Button
             android:text="+5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/add5button3"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player3"
             android:onClick="onClickAdd5"/>
     </LinearLayout>
@@ -177,44 +180,45 @@
 
         <Button
             android:text="-5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minus5button4"
             android:tag="player4"
             android:onClick="onClickSub5"/>
 
         <Button
             android:text="-"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:id="@+id/minusbutton4"
             android:tag="player4"
             android:onClick="onClickSub1"/>
 
         <TextView
             android:text="Linear4"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/player4"
-            android:layout_weight="0.2" />
+            android:layout_weight="1.5"
+            android:gravity="center"/>
 
         <Button
             android:text="+"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/addbutton4"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player4"
             android:onClick="onClickAdd1"/>
 
         <Button
             android:text="+5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/add5button4"
-            android:layout_weight="0.2"
+            android:layout_weight="0.5"
             android:tag="player4"
             android:onClick="onClickAdd5"/>
     </LinearLayout>
@@ -224,5 +228,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/label" />
+        android:id="@+id/label"
+        android:gravity="center"/>
 </RelativeLayout>
